@@ -6,7 +6,7 @@ while True :
         try:
             print(".......................................................")
             print("\n🧱🧱🧱🧱🧱SOLUTION TO FACTORIAL QUESTIONS 🧱🧱🧱🧱🧱🧱\n")
-            num = abs(int(float(input("enter factorial number : "))))
+            num = abs(int(float(input("enter factorial number  > : "))))
             fac = 1
             fac_list = [1]
             for i in range(num,1,-1):
