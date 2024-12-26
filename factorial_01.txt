@@ -1,0 +1,38 @@
+while True :
+    while True :
+        yes = "yes"
+        no = "no"
+        import math
+        try:
+            print(".......................................................")
+            print("\n🧱🧱🧱🧱🧱SOLUTION TO FACTORIAL QUESTIONS 🧱🧱🧱🧱🧱🧱\n")
+            num = abs(int(float(input("enter factorial number : "))))
+            fac = 1
+            fac_list = [1]
+            for i in range(num,1,-1):
+                fac*=i
+                fac_list.append(i)
+            print("🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱")
+            print()
+            print(f'factorial of {num} resolved below:\n  {sorted(fac_list)}\n\n ANSWER / SOLUTION = {fac}\n')
+        except ValueError as e :
+            print("........................................................")
+            print(e)
+            print("........................................................")
+            print("\nSORRY THE FOLLOWING RULES AND GUIDLINES MUST BE OBSERVED:\n >  negative (-) number will be converted to positive for execution✅\n > special character not allowed❌\n > figures in words not allowed❌\n > decimal number now allowed✅\n > fraction number not allowed❌\n.......................................................\nstrictly whole number or integer is permitted")
+        ask_me = input("\nDo you want to perform another task ? ('YES' / 'NO') : ").lower()
+        if ask_me != "yes":
+            break
+    import time
+    for j in "\nprogram is preparing to 'EXIT' now":
+        print(j,end="")
+        time.sleep(0.1)
+    print()
+    ask_again = input("\nARE YOU SURE YOU WANT TO EXIT THE PROGRAM ? ('YES' / 'NO') : ").lower()
+    if ask_again != "no":
+        break
+for joy in "\n THIS SOLUTION DEPLOYED BY TIMOTHY\n...........CONTACTS:............\n }- Email: batigraphics@gmail.com\n }- Tel: +23309077\n }- Website:www.batisolution.co.za ":
+    print(joy,end="")
+    time.sleep(0.1)
+print()
+input_exit_1 = input("\npress 'ENTER' to 'EXIT' ")
